@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "expo-widget-demo",
+    "slug": "expo-widget-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "expowidgetdemo",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.expowidgetdemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.expowidgetdemo"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-widgets",
+        {
+          "widgets": [
+            {
+              "name": "RecentActivity",
+              "displayName": "Recent Activity",
+              "description": "View your latest activity at a glance.",
+              "supportedFamilies": ["systemSmall", "systemMedium"]
+            }
+          ]
+        }
+      ],
+      [
+        "react-native-android-widget",
+        {
+          "widgets": [
+            {
+              "name": "RecentActivity",
+              "label": "Recent Activity",
+              "description": "View your latest activity at a glance.",
+              "minWidth": "200dp",
+              "minHeight": "100dp",
+              "targetCellWidth": 4,
+              "targetCellHeight": 2,
+              "updatePeriodMillis": 1800000
+            }
+          ]
+        }
+      ]
+    ]
+  }
+}

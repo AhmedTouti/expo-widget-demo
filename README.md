@@ -4,7 +4,7 @@ A complete working example of **native home screen widgets** for both iOS and An
 
 No SwiftUI files. No Kotlin. Just TypeScript.
 
-![iOS and Android widgets](./screenshots/preview.png)
+![iOS and Android widgets](./screenshots/preview.jpg)
 
 ## Screenshots
 
